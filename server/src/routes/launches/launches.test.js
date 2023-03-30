@@ -37,6 +37,17 @@ describe('Test POST /launch', () => {
 
         expect(response.body).toMatchObject(launchDataWithoutDate);
     })
-    test('It should catch missing required properties', () => {});
+    test('It should catch missing required properties', async() => {
+        const response = await request(app)
+            .post('/launches')
+            .send(launchDataWithoutDate)
+            .expect('Content-Type', /json/)
+            .expect(400);
+
+        expect(response.body).toStrictEqual({
+            error: 'Missing required launch property',
+        });
+    });
+
     test('It should catch invalid dates', () => {});
 })
