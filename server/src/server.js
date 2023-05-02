@@ -12,8 +12,13 @@ const MONGO_URL = 'somemongourl';
 const server = http.createServer(app)
 
 async function startServer() {
+    await mongoose.connect(MONGO_URL, {
+        useNewUrlParser: true,
+        useFindAndModify: false,
+        useCreateIndex: true,
+        useUnifiedTopology: true,
+    });
     await loadPlanetsData();
-
     
     server.listen(PORT, () => {
         console.log('Listening on port ' + PORT);
