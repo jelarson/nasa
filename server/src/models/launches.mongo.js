@@ -19,5 +19,9 @@ const launchesSchema = new mongoose.Schema({
   rockets: {
     type: String,
     required: true,
+  },
+  targe: {
+    type: mongoose.ObjectId,
+    ref: 'Planet',
   }
 })
