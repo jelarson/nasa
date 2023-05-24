@@ -30,7 +30,9 @@ function loadPlanetsData() {
         .on('data', (data) => {
             if (isHabitablePlanet(data)) {
                 // habitablePlanets.push(data);
-                planets.create(data);
+                planets.create({
+                    keplerName: data.kepler_name,
+                });
             }
         })
         .on('error', (err) => {
