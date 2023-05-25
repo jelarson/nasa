@@ -47,7 +47,10 @@ function loadPlanetsData() {
 }
 
 function getAllPlanets() {
-    return habitablePlanets;
+    // return habitablePlanets;
+    return planets.find({
+        keplerName: 'Kepler-62 f',
+    }, '-keplerName anotherField')
 }
 
 module.exports = {
