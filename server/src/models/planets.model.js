@@ -32,6 +32,10 @@ function loadPlanetsData() {
                 // habitablePlanets.push(data);
                 await planets.updateOne({
                     keplerName: data.kepler_name,
+                }, {
+                    keplerName: data.kepler_name,
+                }, {
+                    upsert: true,
                 });
             }
         })
