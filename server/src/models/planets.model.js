@@ -58,6 +58,16 @@ async function getAllPlanets() {
     return await planets.find({});
 }
 
+async function savePlanet(planet) {
+    await planets.updateOne({
+        keplerName: planet.kepler_name,
+    }, {
+        keplerName: planet.kepler_name,
+    }, {
+        upsert: true,
+    });
+}
+
 module.exports = {
     loadPlanetsData,
     getAllPlanets,
