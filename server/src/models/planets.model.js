@@ -29,14 +29,15 @@ function loadPlanetsData() {
         }))
         .on('data', async (data) => {
             if (isHabitablePlanet(data)) {
-                // habitablePlanets.push(data);
-                await planets.updateOne({
-                    keplerName: data.kepler_name,
-                }, {
-                    keplerName: data.kepler_name,
-                }, {
-                    upsert: true,
-                });
+                // // habitablePlanets.push(data);
+                // await planets.updateOne({
+                //     keplerName: data.kepler_name,
+                // }, {
+                //     keplerName: data.kepler_name,
+                // }, {
+                //     upsert: true,
+                // });
+                savePlanet(data);
             }
         })
         .on('error', (err) => {
