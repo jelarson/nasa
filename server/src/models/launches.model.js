@@ -24,12 +24,14 @@ function existsLaunchWithId(launchId) {
   return launches.has(launchId);
 }
 
-function getAllLaunches() {
-  return Array.from(launches.values());
+async function getAllLaunches() {
+  // return Array.from(launches.values());
+  return await launchesDatabase
+    .find({}, { '_id': 0, '__v': 0 })
 }
 
 async function saveLaunch(launch) {
-  await launches.updateOne({
+  await launchesDatabase.updateOne({
     flightNumber: launch.flightNumber,
   }, launch, {
     upsert: true,
