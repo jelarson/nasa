@@ -1,4 +1,4 @@
-const launches = require('./launches.mongo')
+const launchesDatabase = require('./launches.mongo')
 
 const launches = new Map();
 
@@ -17,6 +17,8 @@ const launch = {
 
 // launches.set(launch.flightNumber, launch);
 // launches.get(100) === launch
+
+saveLaunch(launch)
 
 function existsLaunchWithId(launchId) {
   return launches.has(launchId);
