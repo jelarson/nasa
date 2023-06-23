@@ -35,6 +35,10 @@ async function saveLaunch(launch) {
     keplerName: launch.target,
   });
 
+  if (!planet) {
+    throw new Error('No matching planet found.');
+  }
+
   await launchesDatabase.updateOne({
     flightNumber: launch.flightNumber,
   }, launch, {
