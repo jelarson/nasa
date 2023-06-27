@@ -26,7 +26,8 @@ function existsLaunchWithId(launchId) {
 
 async function getLatestFlightNumber() {
   const latestLaunch = await launchesDatabase
-    .find({});
+    .findOne()
+    .sort('flightNumber');
 }
 
 async function getAllLaunches() {
