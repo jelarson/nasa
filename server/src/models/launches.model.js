@@ -4,6 +4,8 @@ const launches = new Map();
 
 // let latestFlightNumber = 100;
 
+const DEFAULT_FLIGHT_NUMBER = 100;
+
 const launch = {
   flightNumber: 100,
   mission: 'Kepler Exploration X',
@@ -28,6 +30,10 @@ async function getLatestFlightNumber() {
   const latestLaunch = await launchesDatabase
     .findOne()
     .sort('-flightNumber');
+
+  if (!latestLaunch) {
+    return DEFAULT_FLIGHT_NUMBER;
+  }
 
     return latestLaunch.flightNumber;
 }
