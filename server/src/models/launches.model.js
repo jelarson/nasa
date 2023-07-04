@@ -60,18 +60,26 @@ async function saveLaunch(launch) {
   })
 }
 
-function addNewLaunch(launch) {
-  latestFlightNumber++;
-  launches.set(
-    latestFlightNumber,
-    Object.assign(launch, {
-      success: true,
-      upcoming: true,
-      customers: ['ZTM', 'NASA'],
-      flightNumber: latestFlightNumber,
-    })
-  );
+function scheduleNewLaunch(launch) {
+  const newLaunch = Object.assign(launch, {
+    success: true,
+    upcoming: true,
+    customers: ['Zero to Mastery', 'NASA'],
+  })
 }
+
+// function addNewLaunch(launch) {
+//   latestFlightNumber++;
+//   launches.set(
+//     latestFlightNumber,
+//     Object.assign(launch, {
+//       success: true,
+//       upcoming: true,
+//       customers: ['ZTM', 'NASA'],
+//       flightNumber: latestFlightNumber,
+//     })
+//   );
+// }
 
 function abortLaunchById(launchId) {
   // launch.delete(launchId);
