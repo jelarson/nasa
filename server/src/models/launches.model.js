@@ -60,7 +60,7 @@ async function saveLaunch(launch) {
   })
 }
 
-function scheduleNewLaunch(launch) {
+async function scheduleNewLaunch(launch) {
   const newFlightNumber = await getLatestFlightNumber() + 1;
 
   const newLaunch = Object.assign(launch, {
@@ -69,6 +69,8 @@ function scheduleNewLaunch(launch) {
     customers: ['Zero to Mastery', 'NASA'],
     flightNumber: newFlightNumber,
   });
+
+  await saveLaunch(newLaunch)
 }
 
 // function addNewLaunch(launch) {
