@@ -1,7 +1,5 @@
 const launchesDatabase = require('./launches.mongo')
 
-const launches = new Map();
-
 // let latestFlightNumber = 100;
 
 const DEFAULT_FLIGHT_NUMBER = 100;
@@ -22,8 +20,8 @@ const launch = {
 
 saveLaunch(launch)
 
-function existsLaunchWithId(launchId) {
-  return launches.has(launchId);
+async function existsLaunchWithId(launchId) {
+  return await launches.has(launchId);
 }
 
 async function getLatestFlightNumber() {
