@@ -21,7 +21,9 @@ const launch = {
 saveLaunch(launch)
 
 async function existsLaunchWithId(launchId) {
-  return await launches.has(launchId);
+  return await launchesDatabase.findOne({
+    flightNumber: launchId,
+  });
 }
 
 async function getLatestFlightNumber() {
