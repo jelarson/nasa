@@ -39,7 +39,7 @@ async function httpAbortLaunch(req, res) {
             error: 'Launch not found',
         })
     } else {
-        const aborted = abortLaunchById(launchId);
+        const aborted = await abortLaunchById(launchId);
         return res.status(200).json(aborted);
     }
 }
