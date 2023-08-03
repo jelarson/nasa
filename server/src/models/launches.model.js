@@ -94,6 +94,8 @@ async function abortLaunchById(launchId) {
     success: false
   });
 
+  return aborted.ok === 1;
+
   // launch.delete(launchId);
   // const aborted = launches .get(launchId);
   // aborted.upcoming = false;
