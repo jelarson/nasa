@@ -73,19 +73,6 @@ async function scheduleNewLaunch(launch) {
   await saveLaunch(newLaunch)
 }
 
-// function addNewLaunch(launch) {
-//   latestFlightNumber++;
-//   launches.set(
-//     latestFlightNumber,
-//     Object.assign(launch, {
-//       success: true,
-//       upcoming: true,
-//       customers: ['ZTM', 'NASA'],
-//       flightNumber: latestFlightNumber,
-//     })
-//   );
-// }
-
 async function abortLaunchById(launchId) {
   const aborted = await launchesDatabase.updateOne({
     flightNumber: launchId,
@@ -95,12 +82,6 @@ async function abortLaunchById(launchId) {
   });
 
   return aborted.ok === 1 && aborted.nModified === 1;
-
-  // launch.delete(launchId);
-  // const aborted = launches .get(launchId);
-  // aborted.upcoming = false;
-  // aborted.success = false;
-  // return aborted;
 }
 
 module.exports = {
