@@ -38,10 +38,14 @@ async function httpAbortLaunch(req, res) {
         return res.status(404).json({
             error: 'Launch not found',
         })
-    } else {
-        const aborted = await abortLaunchById(launchId);
-        return res.status(200).json(aborted);
     }
+    const aborted = await abortLaunchById(launchId);
+    if (!aborted) {
+        return res.status(400).json({
+            error: 'Launch not aborted',
+        })
+    }
+    return res.status(200).json(aborted);
 }
 
 module.exports = {
