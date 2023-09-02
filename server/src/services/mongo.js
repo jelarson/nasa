@@ -18,3 +18,7 @@ async function mongoConnect() {
     useUnifiedTopology: true,
 });
 }
+
+module.exports = {
+  mongoConnect,
+}

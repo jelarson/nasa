@@ -10,12 +10,7 @@ const PORT = process.env.PORT || 8001;
 const server = http.createServer(app)
 
 async function startServer() {
-    await mongoose.connect(MONGO_URL, {
-        useNewUrlParser: true,
-        useFindAndModify: false,
-        useCreateIndex: true,
-        useUnifiedTopology: true,
-    });
+    await 
     await loadPlanetsData();
     
     server.listen(PORT, () => {
