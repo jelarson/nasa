@@ -19,7 +19,7 @@ async function mongoConnect() {
 });
 }
 
-function mongoDisconnect() {
+async function mongoDisconnect() {
   await mongoose.disconnect();
 }
 
