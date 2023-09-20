@@ -20,7 +20,7 @@ async function mongoConnect() {
 }
 
 function mongoDisconnect() {
-  
+  await mongoose.disconnect();
 }
 
 module.exports = {
