@@ -41,11 +41,11 @@ describe('Launches API', () => {
         const launchDataWithInvalidDate = {
             mission: 'USS Enterprise',
             rocket: 'NCC 1701-D',
-            target: 'Kepler-186 f',
+            target: 'Kepler-62 f',
             launchDate: 'zoot',
         };
     
-        test('It should respone with 201 success', async () =>{
+        test('It should respone with 201 created', async () =>{
             const response = await request(app)
                 .post('/launches')
                 .send(completeLaunchData)
