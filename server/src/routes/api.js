@@ -7,3 +7,5 @@ const api = express.Router();
 
 app.use('/v1/planets', planetsRouter);
 app.use('/v1/launches', launchesRouter);
+
+module.exports = api;
