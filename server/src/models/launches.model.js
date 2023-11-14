@@ -21,7 +21,7 @@ const launch = {
 saveLaunch(launch)
 
 async function loadLaunchesData() {
-  
+  console.log("Downloading launch data...")
 }
 
 async function existsLaunchWithId(launchId) {
