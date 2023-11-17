@@ -23,7 +23,8 @@ const launch = {
 saveLaunch(launch)
 
 async function loadLaunchesData() {
-  console.log("Downloading launch data...")
+  console.log("Downloading launch data...");
+  await axios.post();
 }
 
 async function existsLaunchWithId(launchId) {
