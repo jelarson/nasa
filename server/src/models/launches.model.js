@@ -29,7 +29,10 @@ async function loadLaunchesData() {
   await axios.post(SPACEX_API_URL, {
     "query": {},
     "options": {
-      
+      "path": "rocket",
+      "select": {
+        
+      }
     }
   });
 }
