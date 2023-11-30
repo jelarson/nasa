@@ -30,7 +30,7 @@ async function loadLaunchesData() {
     query: {},
     options: {
       populate: {
-        path: "rocket",
+        path: 'rocket',
         select: {
           name: 1,
         }
