@@ -9,7 +9,7 @@ const DEFAULT_FLIGHT_NUMBER = 100;
 const launch = {
   flightNumber: 100,
   mission: 'Kepler Exploration X',
-  rocket: 'Explorer IS1',
+  rocket: 'Explorer IS1', // exists rocket.name
   launchDate: new Date('December 27, 2030'),
   target: 'Kepler-442 b',
   customers: ['ZTM', 'NASA'],
