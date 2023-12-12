@@ -10,7 +10,7 @@ const launch = {
   flightNumber: 100, // flight_number
   mission: 'Kepler Exploration X', // name
   rocket: 'Explorer IS1', // exists rocket.name
-  launchDate: new Date('December 27, 2030'),
+  launchDate: new Date('December 27, 2030'), // date_local
   target: 'Kepler-442 b',
   customers: ['ZTM', 'NASA'],
   upcoming: true,
