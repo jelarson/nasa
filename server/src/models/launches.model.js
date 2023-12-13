@@ -11,7 +11,7 @@ const launch = {
   mission: 'Kepler Exploration X', // name
   rocket: 'Explorer IS1', // exists rocket.name
   launchDate: new Date('December 27, 2030'), // date_local
-  target: 'Kepler-442 b',
+  target: 'Kepler-442 b', // not applicable
   customers: ['ZTM', 'NASA'],
   upcoming: true,
   success: true,
