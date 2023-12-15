@@ -13,7 +13,7 @@ const launch = {
   launchDate: new Date('December 27, 2030'), // date_local
   target: 'Kepler-442 b', // not applicable
   customers: ['ZTM', 'NASA'],
-  upcoming: true,
+  upcoming: true, // upcoming
   success: true,
 };
 
