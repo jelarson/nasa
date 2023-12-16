@@ -14,7 +14,7 @@ const launch = {
   target: 'Kepler-442 b', // not applicable
   customers: ['ZTM', 'NASA'],
   upcoming: true, // upcoming
-  success: true,
+  success: true, // success
 };
 
 // launches.set(launch.flightNumber, launch);
