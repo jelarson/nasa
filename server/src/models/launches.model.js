@@ -12,7 +12,7 @@ const launch = {
   rocket: 'Explorer IS1', // exists rocket.name
   launchDate: new Date('December 27, 2030'), // date_local
   target: 'Kepler-442 b', // not applicable
-  customers: ['ZTM', 'NASA'],
+  customers: ['ZTM', 'NASA'], // payload.customers
   upcoming: true, // upcoming
   success: true, // success
 };
