@@ -30,9 +30,11 @@ async function loadLaunchesData() {
     query: {},
     options: {
       populate: [
-        path: 'rocket',
-        select: {
-          name: 1,
+        {
+          path: 'rocket',
+          select: {
+            name: 1,
+          },
         },
         {
           path: 'payloads',
