@@ -38,6 +38,9 @@ async function loadLaunchesData() {
         },
         {
           path: 'payloads',
+          select: {
+            'customers'
+          }
         }
       ]
     }
