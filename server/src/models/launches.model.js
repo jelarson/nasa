@@ -39,7 +39,7 @@ async function loadLaunchesData() {
         {
           path: 'payloads',
           select: {
-            'customers'
+            'customers': 1,
           }
         }
       ]
