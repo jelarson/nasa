@@ -45,6 +45,8 @@ async function loadLaunchesData() {
       ]
     }
   });
+
+  const launchData = response.data.docs;
 }
 
 async function existsLaunchWithId(launchId) {
