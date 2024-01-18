@@ -51,7 +51,8 @@ async function loadLaunchesData() {
     const launch = {
       flightNumber: launchDoc['flight_number'],
       mission: launchDoc['name'],
-      rocket: launchDoc['rocket']
+      rocket: launchDoc['rocket'],
+      launchDate: launchDoc['date_local']
     }
   }
 }
