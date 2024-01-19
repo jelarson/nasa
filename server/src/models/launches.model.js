@@ -52,7 +52,8 @@ async function loadLaunchesData() {
       flightNumber: launchDoc['flight_number'],
       mission: launchDoc['name'],
       rocket: launchDoc['rocket'],
-      launchDate: launchDoc['date_local']
+      launchDate: launchDoc['date_local'],
+      upcoming: launchDoc['upcoming']
     }
   }
 }
