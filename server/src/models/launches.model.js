@@ -53,7 +53,8 @@ async function loadLaunchesData() {
       mission: launchDoc['name'],
       rocket: launchDoc['rocket'],
       launchDate: launchDoc['date_local'],
-      upcoming: launchDoc['upcoming']
+      upcoming: launchDoc['upcoming'],
+      success: launchDoc['success'],
     }
   }
 }
