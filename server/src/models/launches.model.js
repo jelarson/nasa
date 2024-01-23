@@ -48,6 +48,9 @@ async function loadLaunchesData() {
 
   const launchDocs = response.data.docs;
   for (const launchDoc of launchDocs) {
+    const payloads = launchDoc['payloads'];
+
+    
     const launch = {
       flightNumber: launchDoc['flight_number'],
       mission: launchDoc['name'],
