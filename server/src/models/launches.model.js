@@ -49,8 +49,10 @@ async function loadLaunchesData() {
   const launchDocs = response.data.docs;
   for (const launchDoc of launchDocs) {
     const payloads = launchDoc['payloads'];
+    const customers = payloads.flatMap((payload) => {
+      
+    })
 
-    
     const launch = {
       flightNumber: launchDoc['flight_number'],
       mission: launchDoc['name'],
