@@ -50,7 +50,7 @@ async function loadLaunchesData() {
   for (const launchDoc of launchDocs) {
     const payloads = launchDoc['payloads'];
     const customers = payloads.flatMap((payload) => {
-      
+      return payload['customers']
     })
 
     const launch = {
