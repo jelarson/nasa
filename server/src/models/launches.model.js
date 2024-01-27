@@ -60,6 +60,7 @@ async function loadLaunchesData() {
       launchDate: launchDoc['date_local'],
       upcoming: launchDoc['upcoming'],
       success: launchDoc['success'],
+      customers,
     }
   }
 }
