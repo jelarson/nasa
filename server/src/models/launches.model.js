@@ -62,6 +62,8 @@ async function loadLaunchesData() {
       success: launchDoc['success'],
       customers,
     }
+
+    console.log(launch.flightNumber, launch.mission)
   }
 }
 
