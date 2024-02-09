@@ -68,6 +68,10 @@ async function loadLaunchData() {
   }
 }
 
+async function findLaunch(filter) {
+  
+}
+
 async function existsLaunchWithId(launchId) {
   return await launchesDatabase.findOne({
     flightNumber: launchId,
