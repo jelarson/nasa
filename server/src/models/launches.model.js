@@ -27,6 +27,7 @@ const SPACEX_API_URL = 'https://api.spacexdata.com/v4/launches/query';
 async function loadLaunchData() {
   await findLaunch({
     flightNumber: 1,
+    rocket: 'Falcon 1',
   })
   console.log("Downloading launch data...");
   const response = await axios.post(SPACEX_API_URL, {
