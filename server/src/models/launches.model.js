@@ -120,6 +120,10 @@ async function saveLaunch(launch) {
 }
 
 async function scheduleNewLaunch(launch) {
+  const planet = await planets.findOne({
+    
+  })
+  
   const newFlightNumber = await getLatestFlightNumber() + 1;
 
   const newLaunch = Object.assign(launch, {
