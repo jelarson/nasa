@@ -123,6 +123,10 @@ async function scheduleNewLaunch(launch) {
   const planet = await planets.findOne({
     keplerName: launch.target
   })
+
+  if (!planet) {
+    
+  }
   
   const newFlightNumber = await getLatestFlightNumber() + 1;
 
