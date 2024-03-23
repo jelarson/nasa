@@ -125,7 +125,7 @@ async function scheduleNewLaunch(launch) {
   })
 
   if (!planet) {
-    
+    throw new Error();
   }
   
   const newFlightNumber = await getLatestFlightNumber() + 1;
