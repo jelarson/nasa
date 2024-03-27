@@ -47,6 +47,10 @@ async function populateLaunches() {
     }
   });
 
+  if (response.status !== 200) {
+    
+  }
+
   const launchDocs = response.data.docs;
   for (const launchDoc of launchDocs) {
     const payloads = launchDoc['payloads'];
