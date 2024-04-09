@@ -7,7 +7,7 @@ const {
 
 async function httpGetAllLaunches(req, res) {
     // for (value of launches.values()) {...}
-    console.log(res.query)
+    console.log(req.query)
     return res.status(200).json(await getAllLaunches());
 }
 
