@@ -10,3 +10,7 @@ function getPagination(query) {
     limit,
   }
 }
+
+module.export = {
+  
+}
