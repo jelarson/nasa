@@ -12,5 +12,5 @@ function getPagination(query) {
 }
 
 module.export = {
-  
+  getPagination,
 }
