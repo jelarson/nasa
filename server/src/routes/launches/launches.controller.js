@@ -7,7 +7,7 @@ const {
 
 const {
     getPagination,
-}
+} = require('../../services/query');
 
 async function httpGetAllLaunches(req, res) {
     // for (value of launches.values()) {...}
