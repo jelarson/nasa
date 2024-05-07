@@ -13,7 +13,8 @@ async function httpGetAllLaunches(req, res) {
     // for (value of launches.values()) {...}
     console.log(req.query)
     const { skip, limit } = getPagination(req.query);
-    return res.status(200).json(await getAllLaunches(skip, limit));
+    const launches = await getAllLaunches(skip, limit)
+    return res.status(200).json();
 }
 
 async function httpAddNewLaunch(req, res) {
