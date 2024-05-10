@@ -114,8 +114,8 @@ async function getAllLaunches(skip, limit) {
   // return Array.from(launches.values());
   return await launchesDatabase
     .find({}, { '_id': 0, '__v': 0 })
-    .skip(20)
-    .limit(50);
+    .skip(skip)
+    .limit(limit);
 }
 
 async function saveLaunch(launch) {
