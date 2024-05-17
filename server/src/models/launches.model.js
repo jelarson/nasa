@@ -9,8 +9,6 @@ const DEFAULT_FLIGHT_NUMBER = 100;
 // launches.set(launch.flightNumber, launch);
 // launches.get(100) === launch
 
-saveLaunch(launch)
-
 const SPACEX_API_URL = 'https://api.spacexdata.com/v4/launches/query';
 
 async function populateLaunches() {
