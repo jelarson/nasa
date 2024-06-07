@@ -18,7 +18,7 @@ async function mongoConnect() {
     useFindAndModify: false,
     useCreateIndex: true,
     useUnifiedTopology: true,
-});
+  });
 }
 
 async function mongoDisconnect() {
