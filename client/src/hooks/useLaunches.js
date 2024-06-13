@@ -43,7 +43,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       }, 800);
     } else {
       onFailureSound();
-    }
+    };
   }, [getLaunches, onSuccessSound, onFailureSound]);
 
   const abortLaunch = useCallback(async (id) => {
