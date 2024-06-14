@@ -55,7 +55,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       onAbortSound();
     } else {
       onFailureSound();
-    }
+    };
   }, [getLaunches, onAbortSound, onFailureSound]);
 
   return {
