@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const launchesDatabase = require('./launches.mongo')
+const launchesDatabase = require('./launches.mongo');
 
 // let latestFlightNumber = 100;
 
