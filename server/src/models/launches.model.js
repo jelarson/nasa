@@ -28,7 +28,7 @@ async function populateLaunches() {
           path: 'payloads',
           select: {
             'customers': 1,
-          }
+          },
         }
       ]
     }
