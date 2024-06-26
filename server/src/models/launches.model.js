@@ -29,7 +29,7 @@ async function populateLaunches() {
           select: {
             'customers': 1,
           },
-        }
+        },
       ]
     }
   });
