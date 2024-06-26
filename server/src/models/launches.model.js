@@ -30,7 +30,7 @@ async function populateLaunches() {
             'customers': 1,
           },
         },
-      ]
+      ],
     }
   });
 
