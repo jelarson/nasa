@@ -72,7 +72,7 @@ async function loadLaunchData() {
     console.log('Launch data already loaded');
   } else {
     await populateLaunches();
-  }
+  };
 }
 
 async function findLaunch(filter) {
