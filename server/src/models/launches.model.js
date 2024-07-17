@@ -111,7 +111,7 @@ async function saveLaunch(launch) {
     flightNumber: launch.flightNumber,
   }, launch, {
     upsert: true,
-  })
+  });
 }
 
 async function scheduleNewLaunch(launch) {
