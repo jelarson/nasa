@@ -140,7 +140,7 @@ async function abortLaunchById(launchId) {
     flightNumber: launchId,
   }, {
     upcoming: false,
-    success: false
+    success: false,
   });
 
   return aborted.modifiedCount === 1;
