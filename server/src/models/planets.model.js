@@ -51,7 +51,6 @@ function loadPlanetsData() {
 }
 
 async function getAllPlanets() {
-    // return habitablePlanets;
     // return planets.find({
     //     keplerName: 'Kepler-62 f',
     // }, '-keplerName anotherField')
