@@ -53,7 +53,6 @@ function loadPlanetsData() {
 async function getAllPlanets() {
     // return planets.find({
     //     keplerName: 'Kepler-62 f',
-    // }, '-keplerName anotherField')
     return await planets.find({}, {
         '_id': 0, '__v': 0,
     });
