@@ -10,7 +10,6 @@ const {
 } = require('../../services/query');
 
 async function httpGetAllLaunches(req, res) {
-    // for (value of launches.values()) {...}
     console.log(req.query)
     const { skip, limit } = getPagination(req.query);
     const launches = await getAllLaunches(skip, limit)
