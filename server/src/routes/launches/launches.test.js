@@ -22,7 +22,7 @@ describe('Launches API', () => {
             .expect('Content-Type', /json/)
             .expect(200);
         });
-    })
+    });
     
     describe('Test POST /launch', () => {
         const completeLaunchData = {
