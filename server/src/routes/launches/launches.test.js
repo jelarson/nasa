@@ -81,5 +81,5 @@ describe('Launches API', () => {
                 error: 'Invalid launch date',
             });
         });
-    })
+    });
 })
