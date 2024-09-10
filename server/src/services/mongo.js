@@ -19,7 +19,7 @@ async function mongoConnect() {
     useCreateIndex: true,
     useUnifiedTopology: true,
   });
-}
+};
 
 async function mongoDisconnect() {
   await mongoose.disconnect();
