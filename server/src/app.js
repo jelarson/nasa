@@ -10,7 +10,6 @@ const app = express();
 app.use(cors({
     origin: 'http://localhost:3000',
 }));
-// app.use(cors()); // will allow all
 
 app.use(morgan('combined'))
 
