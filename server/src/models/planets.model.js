@@ -9,7 +9,6 @@ function isHabitablePlanet(planet) {
     && planet['koi_insol'] > 0.36 && planet['koi_insol'] < 1.11 && planet['koi_prad'] < 1.6;
 };
 
-// const result = await promises;
 // console.log(result);
 
 function loadPlanetsData() {
