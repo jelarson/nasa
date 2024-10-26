@@ -18,7 +18,6 @@ function loadPlanetsData() {
         }))
         .on('data', async (data) => {
             if (isHabitablePlanet(data)) {
-                // await planets.updateOne({
                 //     keplerName: data.kepler_name,
                 // }, {
                 //     keplerName: data.kepler_name,
