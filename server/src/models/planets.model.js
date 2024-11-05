@@ -18,7 +18,6 @@ function loadPlanetsData() {
         }))
         .on('data', async (data) => {
             if (isHabitablePlanet(data)) {
-                // }, {
                 //     upsert: true,
                 // });
                 savePlanet(data);
