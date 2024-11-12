@@ -30,7 +30,7 @@ function loadPlanetsData() {
             console.log(countPlanetsFound + ' planets found!');
             resolve();
         });
-    })
+    });
 }
 
 async function getAllPlanets() {
