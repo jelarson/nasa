@@ -29,7 +29,7 @@ function loadPlanetsData() {
             const countPlanetsFound = (await getAllPlanets()).length();
             console.log(countPlanetsFound + ' planets found!');
             resolve();
-        })
+        });
     })
 }
 
