@@ -51,7 +51,7 @@ async function savePlanet(planet) {
     } catch(err) {
         console.error('Could not save the planet ' + err);
     };
-}
+};
 
 module.exports = {
     loadPlanetsData,
