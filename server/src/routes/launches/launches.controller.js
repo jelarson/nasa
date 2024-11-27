@@ -22,7 +22,7 @@ async function httpAddNewLaunch(req, res) {
         return res.status(400).json({
             error: 'Missing required launch property',
         });
-    }
+    };
 
     launch.launchDate = new Date(launch.launchDate);
     if (isNaN(launch.launchDate)) {
