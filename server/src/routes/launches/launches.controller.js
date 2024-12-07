@@ -30,7 +30,7 @@ async function httpAddNewLaunch(req, res) {
     };
     await scheduleNewLaunch(launch);
     return res.status(201).json(launch);
-}
+};
 
 async function httpAbortLaunch(req, res) {
     const launchId = Number(req.params.id);
