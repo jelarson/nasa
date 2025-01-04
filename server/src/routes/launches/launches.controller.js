@@ -55,4 +55,4 @@ module.exports = {
     httpGetAllLaunches,
     httpAddNewLaunch,
     httpAbortLaunch,
-}
+};
