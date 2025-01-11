@@ -50,7 +50,7 @@ const theme = {
   responsive: {
     small: 600,
     medium: 800,
-    large: 1200
+    large: 1200,
   },
   typography: {
     headerFontFamily: '"Titillium Web", "sans-serif"',
