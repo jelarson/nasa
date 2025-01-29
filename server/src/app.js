@@ -14,5 +14,4 @@ app.use('/v1', api);
 app.get('/*', (_, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
-
 module.exports = app;
