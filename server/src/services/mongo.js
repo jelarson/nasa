@@ -7,7 +7,6 @@ mongoose.connection.once('open', () => {
 mongoose.on('error', (err) => {
   console.log(err);
 })
-
 async function mongoConnect() {
   await mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
