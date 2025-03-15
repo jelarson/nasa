@@ -15,7 +15,6 @@ async function mongoConnect() {
     useUnifiedTopology: true,
   });
 };
-
 async function mongoDisconnect() {
   await mongoose.disconnect();
 };
