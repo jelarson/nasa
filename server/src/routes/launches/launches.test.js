@@ -31,7 +31,6 @@ describe('Launches API', () => {
             rocket: 'NCC 1701-D',
             target: 'Kepler-62 f',
         };
-    
         const launchDataWithInvalidDate = {
             mission: 'USS Enterprise',
             rocket: 'NCC 1701-D',
