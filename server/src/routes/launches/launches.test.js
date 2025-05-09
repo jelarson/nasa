@@ -37,7 +37,6 @@ describe('Launches API', () => {
             target: 'Kepler-62 f',
             launchDate: 'zoot',
         };
-    
         test('It should respone with 201 created', async () =>{
             const response = await request(app)
                 .post('/v1/launches')
