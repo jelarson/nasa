@@ -54,7 +54,6 @@ describe('Launches API', () => {
                 .send(launchDataWithoutDate)
                 .expect('Content-Type', /json/)
                 .expect(400);
-    
             expect(response.body).toStrictEqual({
                 error: 'Missing required launch property',
             });
