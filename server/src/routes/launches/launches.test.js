@@ -58,7 +58,6 @@ describe('Launches API', () => {
                 error: 'Missing required launch property',
             });
         });
-    
         test('It should catch invalid dates', async () => {
             const response = await request(app)
                 .post('/v1/launches')
