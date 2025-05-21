@@ -4,7 +4,6 @@ const {
     httpAddNewLaunch,
     httpAbortLaunch,
 } = require('./launches.controller');
-
 const launchesRouter = express.Router();
 
 launchesRouter.get('/', httpGetAllLaunches);
