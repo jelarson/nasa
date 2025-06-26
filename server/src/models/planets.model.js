@@ -34,7 +34,6 @@ async function getAllPlanets() {
         '__v': 0,
     });
 };
-
 async function savePlanet(planet) {
     try {
         await planets.updateOne({
