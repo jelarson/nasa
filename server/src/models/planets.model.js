@@ -47,7 +47,6 @@ async function savePlanet(planet) {
         console.error('Could not save the planet ' + err);
     };
 };
-
 module.exports = {
     loadPlanetsData,
     getAllPlanets,
