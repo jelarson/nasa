@@ -37,7 +37,6 @@ async function populateLaunches() {
     const customers = payloads.flatMap((payload) => {
       return payload['customers'];
     });
-
     const launch = {
       flightNumber: launchDoc['flight_number'],
       mission: launchDoc['name'],
