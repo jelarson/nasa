@@ -47,7 +47,6 @@ async function populateLaunches() {
       customers,
     };
     console.log(launch.flightNumber, launch.mission);
-
     await saveLaunch(launch);
   }
 };
