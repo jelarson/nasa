@@ -62,7 +62,6 @@ async function loadLaunchData() {
     await populateLaunches();
   };
 }
-
 async function findLaunch(filter) {
   return await launchesDatabase.findOne(filter);
 }
