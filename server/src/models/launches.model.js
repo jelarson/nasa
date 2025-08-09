@@ -70,7 +70,6 @@ async function existsLaunchWithId(launchId) {
     flightNumber: launchId,
   });
 }
-
 async function getLatestFlightNumber() {
   const latestLaunch = await launchesDatabase
     .findOne()
