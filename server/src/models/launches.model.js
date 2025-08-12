@@ -81,7 +81,6 @@ async function getLatestFlightNumber() {
 
     return latestLaunch.flightNumber;
 }
-
 async function getAllLaunches(skip, limit) {
   // return Array.from(launches.values());
   return await launchesDatabase
