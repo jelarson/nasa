@@ -96,7 +96,6 @@ async function saveLaunch(launch) {
     upsert: true,
   });
 }
-
 async function scheduleNewLaunch(launch) {
   const planet = await planets.findOne({
     keplerName: launch.target,
