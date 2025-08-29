@@ -110,7 +110,6 @@ async function scheduleNewLaunch(launch) {
     customers: ['Zero to Mastery', 'NASA'],
     flightNumber: newFlightNumber,
   });
-
   await saveLaunch(newLaunch);
 }
 
