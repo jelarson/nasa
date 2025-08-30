@@ -112,7 +112,6 @@ async function scheduleNewLaunch(launch) {
   });
   await saveLaunch(newLaunch);
 }
-
 async function abortLaunchById(launchId) {
   const aborted = await launchesDatabase.updateOne({
     flightNumber: launchId,
