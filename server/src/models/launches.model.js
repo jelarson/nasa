@@ -119,7 +119,6 @@ async function abortLaunchById(launchId) {
     upcoming: false,
     success: false,
   });
-
   return aborted.modifiedCount === 1;
 }
 
