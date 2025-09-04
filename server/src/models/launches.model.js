@@ -121,7 +121,6 @@ async function abortLaunchById(launchId) {
   });
   return aborted.modifiedCount === 1;
 }
-
 module.exports = {
   loadLaunchData,
   existsLaunchWithId,
