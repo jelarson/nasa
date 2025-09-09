@@ -1,6 +1,5 @@
 const axios = require('axios');
 const launchesDatabase = require('./launches.mongo');
-// let latestFlightNumber = 100;
 const DEFAULT_FLIGHT_NUMBER = 100;
 // launches.set(launch.flightNumber, launch);
 // launches.get(100) === launch
