@@ -3,7 +3,6 @@ const launchesDatabase = require('./launches.mongo');
 const DEFAULT_FLIGHT_NUMBER = 100;
 const SPACEX_API_URL = 'https://api.spacexdata.com/v4/launches/query';
 async function populateLaunches() {
-  console.log("Downloading launch data...");
   const response = await axios.post(SPACEX_API_URL, {
     query: {},
     options: {
