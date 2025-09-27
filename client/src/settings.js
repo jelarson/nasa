@@ -6,7 +6,6 @@ const resources = {
   },
   pattern: "/img/glow.png",
 };
-
 const sounds = {
   shared: {
     volume: 0.5,
