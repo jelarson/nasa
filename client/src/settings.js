@@ -55,7 +55,6 @@ const theme = {
     headerFontFamily: '"Titillium Web", "sans-serif"',
   },
 };
-
 export {
   resources,
   sounds,
