@@ -40,7 +40,6 @@ const sounds = {
     },
   }
 };
-
 const theme = {
   color: {
     content: "#a1ecfb",
