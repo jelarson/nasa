@@ -8,7 +8,6 @@ import {
   createSounds,
   createTheme,
 } from "arwes";
-
 import AppLayout from "./pages/AppLayout";
 
 import { theme, resources, sounds } from "./settings";
