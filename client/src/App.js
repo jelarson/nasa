@@ -23,5 +23,4 @@ const App = () => {
     </SoundsProvider>
   </ThemeProvider>;
 };
-
 export default App;
