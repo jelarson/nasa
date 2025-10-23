@@ -7,7 +7,6 @@ import {
   Table,
   Words,
 } from "arwes";
-
 import Clickable from "../components/Clickable";
 
 const styles = () => ({
