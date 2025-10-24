@@ -15,7 +15,6 @@ const styles = () => ({
     textDecoration: "none",
   },
 });
-
 const Upcoming = props => {
   const { 
     entered,
