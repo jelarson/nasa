@@ -64,5 +64,4 @@ const Upcoming = props => {
     </Table>
   </Appear>;
 }
-
 export default withStyles(styles)(Upcoming);
