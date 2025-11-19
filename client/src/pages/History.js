@@ -18,7 +18,6 @@ const History = props => {
         </tr>;
       });
   }, [props.launches]);
-
   return <article id="history">
     <Appear animate show={props.entered}>
       <Paragraph>History of mission launches including SpaceX launches starting from the year 2006.</Paragraph>
