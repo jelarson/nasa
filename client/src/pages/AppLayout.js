@@ -101,5 +101,4 @@ const AppLayout = props => {
     <Footer />
   </div>;
 };
-
 export default withSounds()(withStyles(styles)(AppLayout));
