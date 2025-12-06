@@ -50,7 +50,6 @@ const AppLayout = props => {
   const onSuccessSound = () => sounds.success && sounds.success.play();
   const onAbortSound = () => sounds.abort && sounds.abort.play();
   const onFailureSound = () => sounds.warning && sounds.warning.play();
-
   const {
     launches,
     isPendingLaunch,
