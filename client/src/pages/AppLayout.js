@@ -46,7 +46,6 @@ const AppLayout = props => {
       setFrameVisible(true);
     }, 600);
   };
-
   const onSuccessSound = () => sounds.success && sounds.success.play();
   const onAbortSound = () => sounds.abort && sounds.abort.play();
   const onFailureSound = () => sounds.warning && sounds.warning.play();
