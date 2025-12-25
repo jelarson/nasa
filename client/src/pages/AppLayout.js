@@ -35,7 +35,6 @@ const styles = () => ({
     paddingBottom: "10px",
   },
 });
-
 const AppLayout = props => {
   const { sounds, classes } = props;
   const [frameVisible, setFrameVisible] = useState(true);
