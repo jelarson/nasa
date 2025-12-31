@@ -21,7 +21,6 @@ import Footer from "../components/Footer";
 import Launch from "./Launch";
 import History from "./History";
 import Upcoming from "./Upcoming";
-
 const styles = () => ({
   content: {
     display: "flex",
