@@ -10,7 +10,6 @@ import {
   withSounds,
   withStyles,
 } from "arwes";
-
 import usePlanets from "../hooks/usePlanets";
 import useLaunches from "../hooks/useLaunches";
 import Centered from "../components/Centered";
