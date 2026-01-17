@@ -10,7 +10,6 @@ const styles = () => ({
     }
   }
 });
-
 const Centered = props => {
   const {
     classes,
