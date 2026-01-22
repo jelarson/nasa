@@ -1,5 +1,4 @@
 import { withSounds } from "arwes";
-
 const Clickable = props => {
   const {
     children,
