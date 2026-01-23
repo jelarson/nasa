@@ -6,7 +6,6 @@ const Clickable = props => {
     onClick,
     ...rest
   } = props;
-
   const clickWithSound = (e) => {
     sounds.click && sounds.click.play();
     onClick && onClick(e);
