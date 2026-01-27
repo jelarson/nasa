@@ -10,7 +10,6 @@ const Clickable = props => {
     sounds.click && sounds.click.play();
     onClick && onClick(e);
   };
-
   return (
     <span {...rest} onClick={clickWithSound}>
       {children}
