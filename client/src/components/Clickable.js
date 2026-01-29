@@ -16,5 +16,4 @@ const Clickable = props => {
     </span>
   );
 };
-
 export default withSounds()(Clickable);
