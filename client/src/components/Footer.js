@@ -9,5 +9,4 @@ const Footer = () => {
     </Centered>
   </ArwesFooter>
 };
-
 export default Footer;
