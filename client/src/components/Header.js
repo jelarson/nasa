@@ -60,7 +60,6 @@ const styles = theme => ({
     }
   },
 });
-
 const Header = props => {
   const { classes, onNav, ...rest } = props;
   return <ArwesHeader animate>
