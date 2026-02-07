@@ -97,5 +97,4 @@ const Header = props => {
     </Centered>
   </ArwesHeader>
 };
-
 export default withStyles(styles)(Header);
