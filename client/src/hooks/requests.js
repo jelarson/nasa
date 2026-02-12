@@ -12,7 +12,6 @@ async function httpGetLaunches() {
     return a.flightNumber - b.flightNumber;
   });
 }
-
 // Submit given launch data to launch system.
 async function httpSubmitLaunch(launch) {
   try {
