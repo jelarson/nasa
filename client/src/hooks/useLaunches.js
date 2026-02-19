@@ -4,7 +4,6 @@ import {
   httpSubmitLaunch,
   httpAbortLaunch,
 } from './requests';
-
 function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
   const [launches, saveLaunches] = useState([]);
   const [isPendingLaunch, setPendingLaunch] = useState(false);
