@@ -12,7 +12,6 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
     const fetchedLaunches = await httpGetLaunches();
     saveLaunches(fetchedLaunches);
   }, []);
-
   useEffect(() => {
     getLaunches();
   }, [getLaunches]);
