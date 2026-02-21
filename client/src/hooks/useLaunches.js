@@ -15,7 +15,6 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
   useEffect(() => {
     getLaunches();
   }, [getLaunches]);
-
   const submitLaunch = useCallback(async (e) => {
     e.preventDefault();
     setPendingLaunch(true);
