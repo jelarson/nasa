@@ -39,7 +39,6 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       onFailureSound();
     };
   }, [getLaunches, onSuccessSound, onFailureSound]);
-
   const abortLaunch = useCallback(async (id) => {
     const response = await httpAbortLaunch(id);
 
