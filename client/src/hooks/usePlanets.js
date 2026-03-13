@@ -6,7 +6,6 @@ function usePlanets() {
     const fetchedPlanets = await httpGetPlanets();
     savePlanets(fetchedPlanets);
   }, []);
-
   useEffect(() => {
     getPlanets();
   }, [getPlanets]);
