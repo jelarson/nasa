@@ -8,7 +8,6 @@ import {
   Words,
 } from "arwes";
 import Clickable from "../components/Clickable";
-
 const styles = () => ({
   link: {
     color: "red",
