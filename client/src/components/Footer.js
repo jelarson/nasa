@@ -11,6 +11,7 @@ const Footer = () => {
       </Paragraph>
     </Centered>
   </ArwesFooter>
-  
+
 };
+
 export default Footer;
