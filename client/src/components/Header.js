@@ -9,6 +9,7 @@ import {
 import { Link } from "react-router-dom";
 
 import Clickable from "./Clickable";
+
 import Centered from "./Centered";
 const styles = theme => ({
   root: {
