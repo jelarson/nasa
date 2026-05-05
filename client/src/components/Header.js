@@ -13,6 +13,7 @@ import Clickable from "./Clickable";
 import Centered from "./Centered";
 
 const styles = theme => ({
+  
   root: {
     display: "flex",
     flexDirection: "row",
