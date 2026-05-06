@@ -13,12 +13,13 @@ import Clickable from "./Clickable";
 import Centered from "./Centered";
 
 const styles = theme => ({
-  
+
   root: {
     display: "flex",
     flexDirection: "row",
     lineHeight: "80px",
   },
+  
   logo: {
     display: "inherit",
     marginTop: "15px",
