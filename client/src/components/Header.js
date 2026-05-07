@@ -19,11 +19,12 @@ const styles = theme => ({
     flexDirection: "row",
     lineHeight: "80px",
   },
-  
+
   logo: {
     display: "inherit",
     marginTop: "15px",
   },
+  
   nav: {
     display: "inherit",
   },
