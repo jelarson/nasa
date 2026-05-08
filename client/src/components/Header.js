@@ -24,10 +24,11 @@ const styles = theme => ({
     display: "inherit",
     marginTop: "15px",
   },
-  
+
   nav: {
     display: "inherit",
   },
+  
   banner: {
     display: "inherit",
     fontWeight: "bold",
