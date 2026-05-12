@@ -36,6 +36,7 @@ const styles = theme => ({
     marginRight: "15px",
     fontSize: 28,
   },
+  
   clickable: {
     fontSize: 21,
     "& i": {
