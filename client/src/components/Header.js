@@ -38,12 +38,13 @@ const styles = theme => ({
   },
 
   clickable: {
-    
+
     fontSize: 21,
     "& i": {
       marginRight: theme.padding / 2,
       fontSize: 24,
     },
+    
   },
   link: {
     color: theme.color.content,
