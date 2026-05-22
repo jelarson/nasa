@@ -51,10 +51,11 @@ const styles = theme => ({
     color: theme.color.content,
     textDecoration: "none",
   },
-  
+
   button: {
     padding: [0, theme.padding / 2],
   },
+  
   "@media (max-width: 800px)": {
     logo: {
       display: "none",
