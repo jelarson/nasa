@@ -55,11 +55,12 @@ const styles = theme => ({
   button: {
     padding: [0, theme.padding / 2],
   },
-  
+
   "@media (max-width: 800px)": {
     logo: {
       display: "none",
     },
+    
     img: {
       display: "none",
     },
