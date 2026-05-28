@@ -64,6 +64,7 @@ const styles = theme => ({
     img: {
       display: "none",
     },
+    
     banner: {
       display: "none",
     },
