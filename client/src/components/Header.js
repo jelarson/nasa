@@ -64,10 +64,11 @@ const styles = theme => ({
     img: {
       display: "none",
     },
-    
+
     banner: {
       display: "none",
     },
+    
     button: {
       padding: [0, 8],
     },
