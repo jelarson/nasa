@@ -72,10 +72,11 @@ const styles = theme => ({
     button: {
       padding: [0, 8],
     },
-    
+
     clickable: {
       fontSize: 16,
     }
+    
   },
 });
 const Header = props => {
