@@ -76,9 +76,10 @@ const styles = theme => ({
     clickable: {
       fontSize: 16,
     }
-    
+
   },
 });
+
 const Header = props => {
   const { classes, onNav, ...rest } = props;
   return <ArwesHeader animate>
