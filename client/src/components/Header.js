@@ -81,6 +81,7 @@ const styles = theme => ({
 });
 
 const Header = props => {
+  
   const { classes, onNav, ...rest } = props;
   return <ArwesHeader animate>
     <Centered className={classes.root} {...rest}>
