@@ -95,8 +95,9 @@ const Header = props => {
         width: "auto",
 
       }} />
-      
+
       <Logo animate size={50} className={classes.logo} layer="header" />
+      
       <Words animate className={classes.banner}>
         NASA Mission Control
       </Words>
