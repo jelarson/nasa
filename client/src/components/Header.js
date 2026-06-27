@@ -101,8 +101,9 @@ const Header = props => {
       <Words animate className={classes.banner}>
 
         NASA Mission Control
-        
+
       </Words>
+      
       <nav className={`${classes.nav}`}>
         <Clickable className={classes.clickable} onClick={onNav}>
           <Highlight className={classes.button} animate layer="header">
