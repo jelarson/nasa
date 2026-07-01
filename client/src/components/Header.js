@@ -103,8 +103,9 @@ const Header = props => {
         NASA Mission Control
 
       </Words>
-      
+
       <nav className={`${classes.nav}`}>
+        
         <Clickable className={classes.clickable} onClick={onNav}>
           <Highlight className={classes.button} animate layer="header">
             <Link className={classes.link} to="/launch">
