@@ -109,8 +109,9 @@ const Header = props => {
         <Clickable className={classes.clickable} onClick={onNav}>
 
           <Highlight className={classes.button} animate layer="header">
-            
+
             <Link className={classes.link} to="/launch">
+            
               <i className="material-icons">check_circle_outline</i>Launch
             </Link>
           </Highlight>
