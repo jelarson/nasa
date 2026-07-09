@@ -111,8 +111,9 @@ const Header = props => {
           <Highlight className={classes.button} animate layer="header">
 
             <Link className={classes.link} to="/launch">
-            
-              <i className="material-icons">check_circle_outline</i>Launch
+
+              <i className="material-icons">check_circle_outline</i>
+              Launch
             </Link>
           </Highlight>
         </Clickable>
