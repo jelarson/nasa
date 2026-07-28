@@ -113,6 +113,7 @@ const Header = props => {
             <Link className={classes.link} to="/launch">
 
               <i className="material-icons">
+                
                 check_circle_outline</i>
               Launch
             </Link>
