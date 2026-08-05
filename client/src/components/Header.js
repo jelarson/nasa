@@ -115,8 +115,9 @@ const Header = props => {
               <i className="material-icons">
 
                 check_circle_outline
-                
+
               </i>
+              
               Launch
             </Link>
           </Highlight>
