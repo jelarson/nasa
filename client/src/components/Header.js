@@ -119,8 +119,9 @@ const Header = props => {
               </i>
 
               Launch
-              
+
             </Link>
+            
           </Highlight>
         </Clickable>
         <Clickable className={classes.clickable} onClick={onNav}>
