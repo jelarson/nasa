@@ -121,8 +121,9 @@ const Header = props => {
               Launch
 
             </Link>
-            
+
           </Highlight>
+          
         </Clickable>
         <Clickable className={classes.clickable} onClick={onNav}>
           <Highlight className={classes.button} animate layer="header">
