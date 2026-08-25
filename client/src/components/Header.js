@@ -132,7 +132,8 @@ const Header = props => {
 
             <Link className={classes.link} to="/upcoming">
 
-            <i className="material-icons">update</i>Upcoming
+            <i className="material-icons">
+              update</i>Upcoming
             </Link>
           </Highlight>
         </Clickable>
