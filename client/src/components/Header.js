@@ -136,7 +136,8 @@ const Header = props => {
 
               update
               
-            </i>Upcoming
+            </i>
+            Upcoming
             </Link>
           </Highlight>
         </Clickable>
