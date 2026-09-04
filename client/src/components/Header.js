@@ -141,6 +141,7 @@ const Header = props => {
             Upcoming
             
             </Link>
+            
           </Highlight>
         </Clickable>
         <Clickable className={classes.clickable} onClick={onNav}>
