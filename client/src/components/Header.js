@@ -153,6 +153,7 @@ const Header = props => {
             <Link className={classes.link} to="/history">
 
               <i className="material-icons">
+                
                 history</i>
               History</Link>
           </Highlight>
