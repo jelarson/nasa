@@ -155,6 +155,7 @@ const Header = props => {
               <i className="material-icons">
                 
                 history
+                
               </i>
               History</Link>
           </Highlight>
