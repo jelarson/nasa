@@ -159,6 +159,7 @@ const Header = props => {
               </i>
 
               History
+              
               </Link>
           </Highlight>
         </Clickable>
