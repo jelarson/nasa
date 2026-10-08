@@ -161,6 +161,7 @@ const Header = props => {
               History
 
             </Link>
+            
           </Highlight>
         </Clickable>
       </nav>
