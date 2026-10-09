@@ -163,8 +163,9 @@ const Header = props => {
             </Link>
 
           </Highlight>
-          
+
         </Clickable>
+        
       </nav>
     </Centered>
   </ArwesHeader>
