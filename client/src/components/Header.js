@@ -167,8 +167,9 @@ const Header = props => {
         </Clickable>
 
       </nav>
-      
+
     </Centered>
+    
   </ArwesHeader>
 };
 export default withStyles(styles)(Header);
