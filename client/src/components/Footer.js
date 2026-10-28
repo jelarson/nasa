@@ -13,8 +13,9 @@ const Footer = () => {
         This is not an official site and is not affiliated with NASA or SpaceX in any way. For educational purposes only.
       
       </Paragraph>
-      
+
     </Centered>
+    
   </ArwesFooter>
 
 };
