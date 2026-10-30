@@ -1,7 +1,7 @@
 import { withSounds } from "arwes";
 
 const Clickable = props => {
-  
+
   const {
     children,
     sounds,
@@ -20,4 +20,5 @@ const Clickable = props => {
     </span>
   );
 };
+
 export default withSounds()(Clickable);
