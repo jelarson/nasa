@@ -15,8 +15,9 @@ const Clickable = props => {
   };
 
   return (
-    
+
     <span {...rest} onClick={clickWithSound}>
+      
       {children}
     </span>
   );
