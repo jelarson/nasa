@@ -26,8 +26,9 @@ const Centered = props => {
     <div className={`${classes.root} ${className}`} {...rest}>
 
       {children}
-      
+
     </div>
+    
   );
 };
 
