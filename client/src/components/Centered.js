@@ -28,8 +28,9 @@ const Centered = props => {
       {children}
 
     </div>
-    
+
   );
+  
 };
 
 export default withStyles(styles)(Centered);
